@@ -2,8 +2,9 @@
 Solución de los problemas en javascript
 
 1 - Muestra una alerta con el mensaje "¡Bienvenida y bienvenido a nuestro sitio web!".
+```javascript
 alert('¡Bienvenida y bienvenido a nuestro sitio web!');
-
+```
 2 - Declara una variable llamada nombre y asígnale el valor "Lua".
 let nombre= "Lua";
 
