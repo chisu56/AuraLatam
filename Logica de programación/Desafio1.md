@@ -28,10 +28,25 @@ function mostrar_prompt(){
 }
 ```
 Crea una función que muestre una alerta con el mensaje: "Yo amo JS" siempre que se presione el botón "Alerta".
+```HTML
+<button onclick="mostrar_alert();" class="button">Alert</button>
+```
 ```javascript
-
+function mostrar_alert(){
+    alert('Yo amo JS');
+}
 ```
 Al hacer clic en el botón "suma", pide 2 números y muestra el resultado de la suma en una alerta.
+```HTML
+<button onclick="mostrar_suma();" class="button">Suma</button>
+```
 ```javascript
+function mostrar_suma(){
+    let numero1= parseInt( prompt('Escribir el primer numero:'));
+    let numero2= parseInt(prompt('Escribir el segundo numero:'));
 
+    let suma= numero1+ numero2;
+
+    alert(`la suma de ${numero1} y ${numero2} es ${suma}`);
+}
 ```
